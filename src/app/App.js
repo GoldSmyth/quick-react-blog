@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
-import SiteHeader from './components/SiteHeader';
-import SiteFooter from './components/SiteFooter';
+import SiteHeader from './common/SiteHeader';
+import SiteFooter from './common/SiteFooter';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +12,7 @@ import {
 import Home from './Home';
 import About from './About';
 import Blog from './Blog';
-import BlogPost from './BlogPost';
+import BlogPost from './blog/BlogPost';
 
 const App = () => {
   
